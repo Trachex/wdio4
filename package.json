@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "smoke": "wdio run ./src/config/wdio.smoke.conf.js",
     "test": "wdio run ./src/config/wdio.conf.js"
   },
   "keywords": [],
